@@ -1,16 +1,1 @@
-# http_demo
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+This Flutter shopping app demonstrates a clean, functional interface for browsing products by category, featuring models for Category and Product with JSON serialization, API services (category_api.dart, product_api.dart) for fetching data from a REST backend, and responsive UI components including a category filter bar and a 2-column product grid. The main screen (main_screen.dart) dynamically loads categories and products, allowing filtering via ProductApi.getProductsByCategoryId(), while individual product cards (product_list_row.dart) display images, names, and prices. Built with core Flutter widgets and the http package, the app handles asynchronous data loading, state management with setState, and error handling, requiring only backend URL configuration in the API files before deployment.
